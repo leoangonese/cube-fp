@@ -51,7 +51,20 @@ session_start();
 										<h5 class="card-title mb-0">Mes</h5>
 									</div>
 									<div class="card-body">
-										<input type="text" name="mes" class="form-control" placeholder="Digite o Mes">
+										<select name="mes" class="form-control">
+  											<option value="Janeiro">Janeiro</option>
+  											<option value="Fevereiro">Fevereiro</option>
+  											<option value="Março">Março</option>
+											<option value="Abril">Abril</option>
+  											<option value="Maio">Maio</option>
+  											<option value="Junho">Junho</option>
+											<option value="Julho">Julho</option>
+  											<option value="Agosto">Agosto</option>
+  											<option value="Setembro">Setembro</option>
+											<option value="Outubro">Outubro</option>
+  											<option value="Novembro">Novembro</option>
+  											<option value="Dezembro">Dezembro</option>
+										</select>
 									</div>
 								</div>						
 							</div>
@@ -111,7 +124,7 @@ session_start();
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="#" ><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
+								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
 							</p>
 						</div>
 						

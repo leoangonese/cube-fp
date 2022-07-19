@@ -4,7 +4,6 @@ include "../model/proprietario.class.php";
 session_start();
 
 ?>
-<html lang="en">
 
 <?php include "head.php"; ?>
 
@@ -65,14 +64,13 @@ session_start();
 								echo "<table class='table'>";
 								echo "<tr><th>#</th><th>Mês</th><th>Ganhos</th><th>Gastos</th><th>Aportes</th><th>Dividendos</th></tr>";
 								foreach($_SESSION['prop'] as $i=>$proprietario){
-									
 									$m = $proprietario->getMes();
 									$g = $proprietario->getGanhos();
 									$gs = $proprietario->getGastos();
 									$a = $proprietario->getAportes();
 									$d = $proprietario->getDividendos();
-									if(isset($_GET['mes']) && (str_contains($m,$_GET['mes'])
-									|| str_contains($m,$_GET['mes']))									
+
+									if(isset($_GET['mes']) && (str_contains($m,$_GET['mes']))									
 									){	
 										
 										echo "<tr>
@@ -90,7 +88,7 @@ session_start();
 										</form> 
 										</div>      
 										</td>       
-										<td>$m</td><td>$g</td><td>$gs</td><td>$a</td><td>$d</td></tr>";  
+										<td>$m</td><td>R$ $g</td><td>R$ $gs</td><td>R$ $a</td><td>R$ $d</td></tr>";  
 									} 
 								}    
 								
@@ -108,7 +106,7 @@ session_start();
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="#" ><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
+								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank' ><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
 							</p>
 						</div>
 						

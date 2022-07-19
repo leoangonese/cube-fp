@@ -47,7 +47,7 @@
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="#" ><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
+								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank' ><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
 							</p>
 						</div>
 						
