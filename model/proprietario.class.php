@@ -7,12 +7,12 @@
      private $dividendos;
 
      //Constructor
-     public function __construct($m,$g){
+     public function __construct( $m, $g, $gt, $a, $d){
           $this->mes = $m;
           $this->ganhos = $g;
-          // $this->gastos = $gt;
-          // $this->aportes = $a;
-          // $this->dividendos = $d;
+          $this->gastos = $gt;
+          $this->aportes = $a;
+          $this->dividendos = $d;
      }
 
      //Setters
@@ -22,15 +22,15 @@
      public function setGanhos($n){
           $this->ganhos = $n;
      }
-     // public function setGastos($n){
-     //      $this->gastos = $n;
-     // }
-     // public function setAportes($n){
-     //      $this->aportes = $n;
-     // }
-     // public function setDividendos($n){
-     //      $this->dividendos = $n;
-     // }
+     public function setGastos($n){
+          $this->gastos = $n;
+     }
+     public function setAportes($n){
+          $this->aportes = $n;
+     }
+     public function setDividendos($n){
+          $this->dividendos = $n;
+     }
 
      //Getters
      public function getMes(){
@@ -39,15 +39,15 @@
      public function getGanhos(){
           return $this->ganhos;
      }
-     // public function getGastos(){
-     //      return $this->gastos;
-     // }
-     // public function getAportes(){
-     //      return $this->aportes;
-     // }
-     // public function getDividendos(){
-     //      return $this->dividendos;
-     // }
+     public function getGastos(){
+          return $this->gastos;
+     }
+     public function getAportes(){
+          return $this->aportes;
+     }
+     public function getDividendos(){
+          return $this->dividendos;
+     }
 
   }
 

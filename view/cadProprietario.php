@@ -51,25 +51,55 @@ session_start();
 										<h5 class="card-title mb-0">Mes</h5>
 									</div>
 									<div class="card-body">
-										<input type="text" name="nome" class="form-control" placeholder="Digite o Mes">
+										<input type="text" name="mes" class="form-control" placeholder="Digite o Mes">
 									</div>
 								</div>						
 							</div>
-							<div class="col-12 col-lg-4">
+							<div class="col-12 col-lg-8">
 								<div class="card">
 									<div class="card-header">
-										<h5 class="card-title mb-0">CPF</h5>
+										<h5 class="card-title mb-0">Ganhos</h5>
 									</div>
-									<div class="card-body" >
-										<input type="text" name="cpf" class="form-control" placeholder="Informe o CPF">
+									<div class="card-body">
+										<input type="text" name="ganhos" class="form-control" placeholder="Digite o Mes">
 									</div>
 								</div>						
-							</div>
-							<div class="col-12 col-lg-12" style="text-align:right;">
-								<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
-							</div>
-						
+							</div>		
+							<div class="col-12 col-lg-8">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title mb-0">Gastos</h5>
+									</div>
+									<div class="card-body">
+										<input type="text" name="gastos" class="form-control" placeholder="Digite o Mes">
+									</div>
+								</div>						
+							</div>		
+							<div class="col-12 col-lg-8">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title mb-0">Aportes</h5>
+									</div>
+									<div class="card-body">
+										<input type="text" name="aportes" class="form-control" placeholder="Digite o Mes">
+									</div>
+								</div>						
+							</div>		
+							<div class="col-12 col-lg-8">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title mb-0">Dividendos</h5>
+									</div>
+									<div class="card-body">
+										<input type="text" name="dividendos" class="form-control" placeholder="Digite o Mes">
+									</div>
+								</div>						
+							</div>		
+
 					</div>
+					<div class="col-12 col-lg-12" style="text-align:left;">
+								<button type="submit" class="btn btn-success btn-lg">Cadastrar</button>
+							</div>
 					</form>
 							
 

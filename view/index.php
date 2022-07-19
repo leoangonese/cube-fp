@@ -47,7 +47,7 @@
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="#" ><strong>COLOCAR O(S) NOME(S) DO(S) ALUNO(S)</strong></a> &copy;
+								<a class="text-muted" href="#" ><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
 							</p>
 						</div>
 						
