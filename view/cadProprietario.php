@@ -30,28 +30,28 @@ session_start();
 				
 
 							
-		    			    <a class="dropdown-item" href="#">Log out</a>
+		    			    <a class="dropdown-item" href="../login.php">Log out</a>
 						
 					</ul>
 				</div>
 			</nav>
 
-			<main class="content">
+			<main class="content bg-dark">
 				<div class="container-fluid p-0">
 
 					<div class="mb-3">
-						<h1 class="h3 d-inline align-middle">CADASTRO DE PROPRIETÁRIO</h1>						
+						<h1 class="h3 d-inline align-middle text-success">CADASTRO DE PROPRIETÁRIO</h1>						
 					</div>
 					<form action="../controller/registrar.php" method="GET">
 					<div class="row">
 						
-							<div class="col-12 col-lg-8">
-								<div class="card">
-									<div class="card-header">
-										<h5 class="card-title mb-0">Mes</h5>
+							<div class="col-12 col-lg-8 ">
+								<div class="card bg-success">
+									<div class="card-header bg-success">
+										<h5 class="card-title mb-0 text-dark">Mes</h5>
 									</div>
 									<div class="card-body">
-										<select name="mes" class="form-control">
+										<select name="mes" class="form-control bg-dark text-success border-dark">
   											<option value="Janeiro">Janeiro</option>
   											<option value="Fevereiro">Fevereiro</option>
   											<option value="Março">Março</option>
@@ -69,49 +69,49 @@ session_start();
 								</div>						
 							</div>
 							<div class="col-12 col-lg-8">
-								<div class="card">
-									<div class="card-header">
-										<h5 class="card-title mb-0">Ganhos</h5>
+								<div class="card bg-success">
+									<div class="card-header bg-success">
+										<h5 class="card-title mb-0 text-dark">Ganhos</h5>
 									</div>
 									<div class="card-body">
-										<input type="text" name="ganhos" class="form-control" placeholder="Digite o Mes">
+										<input type="text" name="ganhos" class="form-control bg-dark text-success border-dark" placeholder="Digite o Mes">
 									</div>
 								</div>						
 							</div>		
 							<div class="col-12 col-lg-8">
-								<div class="card">
-									<div class="card-header">
-										<h5 class="card-title mb-0">Gastos</h5>
+								<div class="card bg-success">
+									<div class="card-header bg-success">
+										<h5 class="card-title mb-0 text-dark">Gastos</h5>
 									</div>
 									<div class="card-body">
-										<input type="text" name="gastos" class="form-control" placeholder="Digite o Mes">
+										<input type="text" name="gastos" class="form-control bg-dark text-success border-dark" placeholder="Digite o Mes">
 									</div>
 								</div>						
 							</div>		
 							<div class="col-12 col-lg-8">
-								<div class="card">
-									<div class="card-header">
-										<h5 class="card-title mb-0">Aportes</h5>
+								<div class="card bg-success">
+									<div class="card-header bg-success">
+										<h5 class="card-title mb-0 text-dark">Aportes</h5>
 									</div>
 									<div class="card-body">
-										<input type="text" name="aportes" class="form-control" placeholder="Digite o Mes">
+										<input type="text" name="aportes" class="form-control bg-dark text-success border-dark" placeholder="Digite o Mes">
 									</div>
 								</div>						
 							</div>		
 							<div class="col-12 col-lg-8">
-								<div class="card">
-									<div class="card-header">
-										<h5 class="card-title mb-0">Dividendos</h5>
+								<div class="card bg-success">
+									<div class="card-header bg-success">
+										<h5 class="card-title mb-0 text-dark">Dividendos</h5>
 									</div>
 									<div class="card-body">
-										<input type="text" name="dividendos" class="form-control" placeholder="Digite o Mes">
+										<input type="text" name="dividendos" class="form-control bg-dark text-success border-dark" placeholder="Digite o Mes">
 									</div>
 								</div>						
 							</div>		
 
 					</div>
 					<div class="col-12 col-lg-12" style="text-align:left;">
-								<button type="submit" class="btn btn-success btn-lg">Cadastrar</button>
+								<button type="submit" class="btn btn-success btn-lg text-dark">Cadastrar</button>
 							</div>
 					</form>
 							
@@ -119,12 +119,12 @@ session_start();
 				</div>
 			</main>
 
-			<footer class="footer">
+			<footer class="footer bg-success">
 				<div class="container-fluid">
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong>Leonardo Angonese, João Silveira</strong></a> &copy;
+								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Leonardo Angonese, João Silveira</strong></a> &copy;
 							</p>
 						</div>
 						

@@ -2,8 +2,8 @@
 if(!isset($_SESSION['login'])){
 
    if(isset($_POST['acao'])){
-      $login = 'joao';
-      $senha = 'senha';
+      $login = 'name';
+      $senha = 'password';
 
       $loginForm = $_POST['login'];
       $senhaForm = $_POST['senha'];
