@@ -1,12 +1,29 @@
 <?php
-session_start();
-if(!isset($_SESSION['prop'])){
-   $_SESSION['prop']= array();
-}
+if(!isset($_SESSION['login'])){
 
-if(!isset($_SESSION['vei'])){
-   $_SESSION['vei']= array();
+   if(isset($_POST['acao'])){
+      $login = 'name';
+      $senha = 'password';
+
+      $loginForm = $_POST['login'];
+      $senhaForm = $_POST['senha'];
+
+      if($login == $loginForm && $senha == $senhaForm){
+         $_SESSION['login'] = true;
+         header('Location: ./view/cadProprietario.php');
+      }else{
+         echo 'Dados inválidos.';
+      }
+   }
+
+   include('login.php');
+}else{
+   if(isset($_GET['logout'])){
+      unset($_SESSION['login']);
+      session_destroy();
+      header('Location: index.php');
+   }
+   include('cadProprietario.php');
 }
-header("Refresh:0; view");
 
 ?>
