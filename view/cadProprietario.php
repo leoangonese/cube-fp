@@ -40,7 +40,7 @@ session_start();
                 <div class="container-fluid p-0">
 
                     <div class="mb-3">
-                        <h1 class="h3 d-inline align-middle text-success">CADASTRO DE PROPRIETÁRIO</h1>
+                        <h1 class="h3 d-inline align-middle text-success">CADASTRO DE MENSAL</h1>
                     </div>
                     <form action="../controller/registrar.php" method="GET">
                         <div class="row">
@@ -48,7 +48,7 @@ session_start();
                             <div class="col-12 col-lg-8 ">
                                 <div class="card bg-success">
                                     <div class="card-header bg-success">
-                                        <h5 class="card-title mb-0 text-dark">Mes</h5>
+                                        <h5 class="card-title mb-0 text-dark">Mês</h5>
                                     </div>
                                     <div class="card-body">
                                         <select name="mes" class="form-control bg-dark text-success border-dark">
@@ -112,7 +112,7 @@ session_start();
                                     <div class="card-body">
                                         <input type="text" name="dividendos"
                                             class="form-control bg-dark text-success border-dark"
-                                            placeholder="Digite o Mes">
+                                            placeholder="Digite os seus dividendos">
                                     </div>
                                 </div>
                             </div>

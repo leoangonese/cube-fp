@@ -39,7 +39,7 @@ session_start();
                 <div class="container-fluid p-0">
 
                     <div class="mb-3">
-                        <h1 class="h3 d-inline align-middle text-success">CONSULTA PROPRIETÁRIO</h1>
+                        <h1 class="h3 d-inline align-middle text-success">FINANÇAS ANUAIS</h1>
                     </div>
                     <div class="row">
                         <div class="col-12 col-lg-6">
@@ -64,7 +64,6 @@ session_start();
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-                                        <button class="btn btn-outline-danger" type="cancel">LIMPAR</button>
                                     </div>
                                 </div>
                             </form>

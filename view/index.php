@@ -33,7 +33,7 @@
                             <div class="col-xxl-4 col-md-6">
                                 <div class="card info-card sales-card bg-success">
                                     <div class="card-body">
-                                        <h5 class="card-title text-dark">Sales <span>| Today</span></h5>
+                                        <h5 class="card-title text-dark">Dividendos <span>| Hoje</span></h5>
 
                                         <div class="d-flex align-items-center">
                                             <div
@@ -43,7 +43,7 @@
                                             <div class="ps-3">
                                                 <h6 class='text-primary'>145</h6>
                                                 <span class="text-primary small pt-1 fw-bold">12%</span> <span
-                                                    class="text-dark small pt-2 ps-1">increase</span>
+                                                    class="text-dark small pt-2 ps-1">valorização</span>
 
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@
                                 <div class="card info-card revenue-card bg-success">
 
                                     <div class="card-body">
-                                        <h5 class="card-title text-dark">Revenue <span>| This Month</span></h5>
+                                        <h5 class="card-title text-dark">Receita <span>| Este mês</span></h5>
 
                                         <div class="d-flex align-items-center">
                                             <div
@@ -65,9 +65,9 @@
                                                 <i class="bi bi-currency-dollar"></i>
                                             </div>
                                             <div class="ps-3">
-                                                <h6 class='text-primary'>$3,264</h6>
+                                                <h6 class='text-primary'>R$ 3.264,00</h6>
                                                 <span class="text-primary small pt-1 fw-bold">8%</span> <span
-                                                    class="text-dark small pt-2 ps-1">increase</span>
+                                                    class="text-dark small pt-2 ps-1">valorização</span>
 
                                             </div>
                                         </div>
@@ -96,7 +96,7 @@
                                     </div>
 
                                     <div class="card-body bg-success">
-                                        <h5 class="card-title text-dark">Customers <span>| This Year</span></h5>
+                                        <h5 class="card-title text-dark">Clientes <span>| Esse ano</span></h5>
 
                                         <div class="d-flex align-items-center">
                                             <div
@@ -106,7 +106,7 @@
                                             <div class="ps-3">
                                                 <h6 class='text-primary'>1244</h6>
                                                 <span class="text-danger small pt-1 fw-bold">12%</span> <span
-                                                    class="text-dark small pt-2 ps-1">decrease</span>
+                                                    class="text-dark small pt-2 ps-1">valorização</span>
 
                                             </div>
                                         </div>
@@ -121,15 +121,15 @@
                                 <div class="card recent-sales overflow-auto bg-success">
 
                                     <div class="card-body">
-                                        <h5 class="card-title text-dark">Recent Sales <span>| Today</span></h5>
+                                        <h5 class="card-title text-dark">Lucros recentes <span>| Hoje</span></h5>
 
                                         <table class="table table-borderless datatable">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">#</th>
-                                                    <th scope="col">Customer</th>
-                                                    <th scope="col">Product</th>
-                                                    <th scope="col">Price</th>
+                                                    <th scope="col">Sócios</th>
+                                                    <th scope="col">Ações</th>
+                                                    <th scope="col">Preço</th>
                                                     <th scope="col">Status</th>
                                                 </tr>
                                             </thead>
@@ -137,41 +137,40 @@
                                                 <tr>
                                                     <th scope="row"><a href="#">#2457</a></th>
                                                     <td>Brandon Jacob</td>
-                                                    <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                                                    <td>$64</td>
-                                                    <td><span class="badge bg-primary">Approved</span></td>
+                                                    <td><a href="#" class="text-primary">VALE ON</a></td>
+                                                    <td>R$ 64,00</td>
+                                                    <td><span class="badge bg-primary">Aprovado</span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#">#2147</a></th>
                                                     <td>Bridie Kessler</td>
-                                                    <td><a href="#" class="text-primary">Blanditiis dolor omnis
-                                                            similique</a></td>
-                                                    <td>$47</td>
-                                                    <td><span class="badge bg-warning">Pending</span></td>
+                                                    <td><a href="#" class="text-primary">PETROBRAS PN</a></td>
+                                                    <td>R$ 47,00</td>
+                                                    <td><span class="badge bg-warning">Pendente</span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#">#2049</a></th>
                                                     <td>Ashleigh Langosh</td>
-                                                    <td><a href="#" class="text-primary">At recusandae consectetur</a>
+                                                    <td><a href="#" class="text-primary">ITAUUNIBANCO PN</a>
                                                     </td>
-                                                    <td>$147</td>
-                                                    <td><span class="badge bg-primary">Approved</span></td>
+                                                    <td>R$ 147,00</td>
+                                                    <td><span class="badge bg-primary">Aprovado</span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#">#2644</a></th>
                                                     <td>Angus Grady</td>
-                                                    <td><a href="#" class="text-primar">Ut voluptatem id earum et</a>
+                                                    <td><a href="#" class="text-primar">BRADESCO PN</a>
                                                     </td>
-                                                    <td>$67</td>
-                                                    <td><span class="badge bg-danger">Rejected</span></td>
+                                                    <td>R$ 67,00</td>
+                                                    <td><span class="badge bg-danger">Rejeitado</span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#">#2644</a></th>
                                                     <td>Raheem Lehner</td>
-                                                    <td><a href="#" class="text-primary">Sunt similique distinctio</a>
+                                                    <td><a href="#" class="text-primary">CUBEOPTIONS PN</a>
                                                     </td>
-                                                    <td>$165</td>
-                                                    <td><span class="badge bg-primary">Approved</span></td>
+                                                    <td>R$ 165,00</td>
+                                                    <td><span class="badge bg-primary">Aprovado</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -185,63 +184,58 @@
                             <div class="col-12">
                                 <div class="card top-selling overflow-auto bg-success">
                                     <div class="card-body pb-0">
-                                        <h5 class="card-title text-dark">Top Selling <span>| Today</span></h5>
+                                        <h5 class="card-title text-dark">Mais valorizados <span>| Hoje</span></h5>
 
                                         <table class="table table-borderless">
                                             <thead>
                                                 <tr>
-                                                    <th scope="col">Preview</th>
-                                                    <th scope="col">Product</th>
-                                                    <th scope="col">Price</th>
-                                                    <th scope="col">Sold</th>
-                                                    <th scope="col">Revenue</th>
+                                                    <th scope="col">Visualizar</th>
+                                                    <th scope="col">Ações</th>
+                                                    <th scope="col">Preço</th>
+                                                    <th scope="col">Operações</th>
+                                                    <th scope="col">Receita</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <th scope="row"><a href="#"><img src="assets/img/product-1.jpg"
                                                                 alt=""></a></th>
-                                                    <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa
-                                                            voluptas nulla</a></td>
-                                                    <td>$64</td>
+                                                    <td><a href="#" class="text-primary fw-bold">ITAUUNIBANCO PN</a></td>
+                                                    <td>R$ 64,00</td>
                                                     <td class="fw-bold">124</td>
-                                                    <td>$5,828</td>
+                                                    <td>R$ 5.828,00</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#"><img src="assets/img/product-2.jpg"
                                                                 alt=""></a></th>
-                                                    <td><a href="#" class="text-primary fw-bold">Exercitationem
-                                                            similique doloremque</a></td>
-                                                    <td>$46</td>
+                                                    <td><a href="#" class="text-primary fw-bold">BRADESCO PN</a></td>
+                                                    <td>R$ 46,00</td>
                                                     <td class="fw-bold">98</td>
-                                                    <td>$4,508</td>
+                                                    <td>R$ 4.508,00</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#"><img src="assets/img/product-3.jpg"
                                                                 alt=""></a></th>
-                                                    <td><a href="#" class="text-primary fw-bold">Doloribus nisi
-                                                            exercitationem</a></td>
-                                                    <td>$59</td>
+                                                    <td><a href="#" class="text-primary fw-bold">ITAUUNIBANCO PN</a></td>
+                                                    <td>R$ 59,00</td>
                                                     <td class="fw-bold">74</td>
-                                                    <td>$4,366</td>
+                                                    <td>R$ 4.366,00</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#"><img src="assets/img/product-4.jpg"
                                                                 alt=""></a></th>
-                                                    <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint
-                                                            rerum error</a></td>
-                                                    <td>$32</td>
+                                                    <td><a href="#" class="text-primary fw-bold">PETROBRAS PN</a></td>
+                                                    <td>R$ 32,00</td>
                                                     <td class="fw-bold">63</td>
-                                                    <td>$2,016</td>
+                                                    <td>R$ 2.016,00</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"><a href="#"><img src="assets/img/product-5.jpg"
                                                                 alt=""></a></th>
-                                                    <td><a href="#" class="text-primary fw-bold">Sit unde debitis
-                                                            delectus repellendus</a></td>
-                                                    <td>$79</td>
+                                                    <td><a href="#" class="text-primary fw-bold">CUBEOPTIONS PN</a></td>
+                                                    <td>R$ 79,00</td>
                                                     <td class="fw-bold">41</td>
-                                                    <td>$3,239</td>
+                                                    <td>R$ 3.239,00</td>
                                                 </tr>
                                             </tbody>
                                         </table>
