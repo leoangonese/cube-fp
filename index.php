@@ -2,7 +2,7 @@
 if(!isset($_SESSION['login'])){
 
    if(isset($_POST['acao'])){
-      $login = 'name';
+      $login = 'username';
       $senha = 'password';
 
       $loginForm = $_POST['login'];
@@ -12,11 +12,11 @@ if(!isset($_SESSION['login'])){
          $_SESSION['login'] = true;
          header('Location: ./view/index.php');
       }else{
-         echo 'Dados inválidos.';
+         echo '<h4 style="color: red; text-align:center; padding-top:50px">Dados inválidos.</h4>';
       }
    }
 
-   include('login.php');
+   include('./view/login.php');
 }else{
    if(isset($_GET['logout'])){
       unset($_SESSION['login']);
