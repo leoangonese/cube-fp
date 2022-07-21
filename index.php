@@ -10,7 +10,7 @@ if(!isset($_SESSION['login'])){
 
       if($login == $loginForm && $senha == $senhaForm){
          $_SESSION['login'] = true;
-         header('Location: ./view/cadProprietario.php');
+         header('Location: ./view/index.php');
       }else{
          echo 'Dados inválidos.';
       }

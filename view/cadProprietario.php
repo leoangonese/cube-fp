@@ -28,7 +28,7 @@ session_start();
 						
 						
 				
-<button type='button' class='btn btn-outline-dark'><a href="../login.php">Log out</a></button>
+<button type='button' class='btn btn-outline-dark'><a href="../index.php">Log out</a></button>
 							
 		    			    
 						
