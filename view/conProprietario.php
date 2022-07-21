@@ -46,7 +46,8 @@ session_start();
                             <form action="#" method="GET">
                                 <div class="row">
                                     <div class="col-12 col-lg-6">
-                                    <select name="mes" class="form-control bg-success text-dark border-dark">
+                                        <select name="mes" class="form-control bg-success text-dark border-dark">
+                                            <option value="Anual">Anual</option>
                                             <option value="Janeiro">Janeiro</option>
                                             <option value="Fevereiro">Fevereiro</option>
                                             <option value="Março">Março</option>
