@@ -2,9 +2,9 @@
 This is a basic control panel for a enterprise of finance people.
 ## Demonstration
 
-![App Screenshot](/view/img/1.png)
-![App Screenshot](/view/img/2.png)
-![App Screenshot](/view/img/3.png)
+![App Screenshot](view/img/1.png)
+![App Screenshot](view/img/2.png)
+![App Screenshot](view/img/3.png)
 
 
 ## Authors
