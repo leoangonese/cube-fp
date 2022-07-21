@@ -18,7 +18,7 @@ session_start();
 		</nav>
 
 		<div class="main">
-		<nav class="navbar navbar-expand navbar-light navbar-bg">
+		<nav class="navbar navbar-expand navbar-light navbar-bg bg-success">
 				<a class="sidebar-toggle js-sidebar-toggle">
 					<i class="hamburger align-self-center"></i>
 				</a>
@@ -28,9 +28,9 @@ session_start();
 						
 						
 				
-
+<button type='button' class='btn btn-outline-dark'><a href="../login.php">Log out</a></button>
 							
-		    			    <a class="dropdown-item" href="../login.php">Log out</a>
+		    			    
 						
 					</ul>
 				</div>

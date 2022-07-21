@@ -19,11 +19,18 @@ session_start();
 		<div class="main bg-dark">
 		<nav class="navbar navbar-expand navbar-light navbar-bg bg-success">
 				<a class="sidebar-toggle js-sidebar-toggle">
-					<i class="hamburger align-self-center text-dark"></i>
+					<i class="hamburger align-self-center"></i>
 				</a>
+
 				<div class="navbar-collapse collapse">
 					<ul class="navbar-nav navbar-align">
-		    			    <a class="dropdown-item" href="../login.php">Log out</a>
+						
+						
+				
+<button type='button' class='btn btn-outline-dark'><a href="../login.php">Log out</a></button>
+							
+		    			    
+						
 					</ul>
 				</div>
 			</nav>
