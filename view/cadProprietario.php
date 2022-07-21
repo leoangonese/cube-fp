@@ -76,7 +76,7 @@ session_start();
                                     <div class="card-body">
                                         <input type="text" name="ganhos"
                                             class="form-control bg-dark text-success border-dark"
-                                            placeholder="Digite o Mes">
+                                            placeholder="Digite os seus ganhos">
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ session_start();
                                     <div class="card-body">
                                         <input type="text" name="gastos"
                                             class="form-control bg-dark text-success border-dark"
-                                            placeholder="Digite o Mes">
+                                            placeholder="Digite os seus gastos">
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ session_start();
                                     <div class="card-body">
                                         <input type="text" name="aportes"
                                             class="form-control bg-dark text-success border-dark"
-                                            placeholder="Digite o Mes">
+                                            placeholder="Digite os seus aportes">
                                     </div>
                                 </div>
                             </div>
