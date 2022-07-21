@@ -17,12 +17,12 @@
                         <form id="login-form" class="form " action="" method="post">
 
                             <div class="form-group">
-                                <label for="username" class="text-success">Username:</label><br>
+                                <label for="username" class="text-success">Nome:</label><br>
                                 <input type="text" name="login" id="name" class="form-control text-dark">
                             </div>
                             <div class="form-group">
-                                <label for="password" class="text-success">Password:</label><br>
-                                <input type="text" name="senha" id="password" class="form-control text-dark">
+                                <label for="password" class="text-success">Senha:</label><br>
+                                <input type="password" name="senha" id="password" class="form-control text-dark">
                             </div>
                             <div class="form-group">
                                 <input type="submit" name="acao" class="btn btn-outline-success btn-md" value="submit">
