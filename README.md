@@ -3,8 +3,8 @@ This is a basic control panel for a enterprise of finance people.
 ## Demonstration
 
 ![App Screenshot](1.png)
-![App Screenshot](img/2.png)
-![App Screenshot](img/3.png)
+![App Screenshot](2.png)
+![App Screenshot](3.png)
 
 
 ## Authors
