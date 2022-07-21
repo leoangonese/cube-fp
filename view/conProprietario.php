@@ -39,7 +39,7 @@ session_start();
 							<form action="#" method="GET">
 								<div class="row">	
 									<div class="col-12 col-lg-6">
-										<input type="text" name="mes" class="form-control bg-success border-success .text-dark" placeholder="Digite o Mes">
+										<input type="text" id='aqui' name="mes" class="form-control bg-success border-success .text-dark" placeholder="Digite o Mes">
 									</div>
 									<div class="col-12 col-lg-6">	
 										<button class="btn btn-outline-success" type="submit">BUSCAR</button>
@@ -101,9 +101,10 @@ session_start();
 			<footer class="footer bg-success">
 				<div class="container-fluid">
 					<div class="row text-muted">
-						<div class="col-6 text-start">
+						<div class="text-center">
 							<p class="mb-0">
-								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Leonardo Angonese, João Silveira</strong></a> &copy;
+							<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Todos os direitos reservados Cube&copy;</strong> <br>
+								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Leonardo Angonese & João Victor Silveira</strong>
 							</p>
 						</div>
 						

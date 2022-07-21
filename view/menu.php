@@ -1,7 +1,11 @@
 
 <div class="sidebar-content js-simplebar bg-dark">
 	<a class="sidebar-brand" href="index.php">
-		<span class="align-middle">Cube - FP</span>
+		<figure>
+			<img src="./img/cube.png" width='30px' alt="">
+			<span class="align-middle ">Cube</span>
+		</figure>
+		
 	</a>
 
 	<ul class="sidebar-nav">

@@ -122,9 +122,10 @@ session_start();
 			<footer class="footer bg-success">
 				<div class="container-fluid">
 					<div class="row text-muted">
-						<div class="col-6 text-start">
+						<div class="text-center">
 							<p class="mb-0">
-								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Leonardo Angonese, João Silveira</strong></a> &copy;
+							<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Todos os direitos reservados Cube&copy;</strong> <br>
+								<a class="text-muted" href="https://github.com/leoangonese/cube-fp" target='blank'><strong class='text-dark'>Leonardo Angonese & João Victor Silveira</strong>
 							</p>
 						</div>
 						
