@@ -46,9 +46,20 @@ session_start();
                             <form action="#" method="GET">
                                 <div class="row">
                                     <div class="col-12 col-lg-6">
-                                        <input type="text" id='aqui' name="mes"
-                                            class="form-control bg-success border-success .text-dark"
-                                            placeholder="Digite o Mes">
+                                    <select name="mes" class="form-control bg-success text-dark border-dark">
+                                            <option value="Janeiro">Janeiro</option>
+                                            <option value="Fevereiro">Fevereiro</option>
+                                            <option value="Março">Março</option>
+                                            <option value="Abril">Abril</option>
+                                            <option value="Maio">Maio</option>
+                                            <option value="Junho">Junho</option>
+                                            <option value="Julho">Julho</option>
+                                            <option value="Agosto">Agosto</option>
+                                            <option value="Setembro">Setembro</option>
+                                            <option value="Outubro">Outubro</option>
+                                            <option value="Novembro">Novembro</option>
+                                            <option value="Dezembro">Dezembro</option>
+                                        </select>
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <button class="btn btn-outline-success" type="submit">BUSCAR</button>
