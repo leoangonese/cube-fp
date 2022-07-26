@@ -1,4 +1,4 @@
-# Cube FP
+# Cube Finance
 This is a basic control panel for a enterprise of finance people.
 ## Demonstration
 
