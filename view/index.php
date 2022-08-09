@@ -1,4 +1,9 @@
 <?php session_start() ?>
+<?php
+
+include('protect.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include "head.php"; ?>
@@ -18,7 +23,7 @@
                 </a>
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav navbar-align">
-                        <button type='button' class='btn btn-outline-dark'><a href="../index.php">Sair</a></button>
+                        <button type='button' class='btn btn-outline-dark'><a href="logout.php">Sair</a></button>
                     </ul>
                 </div>
             </nav>

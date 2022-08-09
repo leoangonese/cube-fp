@@ -4,9 +4,17 @@ include "../model/proprietario.class.php";
 session_start();
 
 ?>
+
+<?php
+
+include('protect.php');
+
+?>
+
 <html lang="en">
 
 <?php include "head.php"; ?>
+
 
 <body>
     <div class="wrapper">
@@ -28,7 +36,7 @@ session_start();
 
 
 
-                        <button type='button' class='btn btn-outline-dark'><a href="../index.php">Sair</a></button>
+                        <button type='button' class='btn btn-outline-dark'><a href="logout.php">Sair</a></button>
 
 
 
